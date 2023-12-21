@@ -10,6 +10,11 @@ a {
     position: relative;
     background-color: #eeffff;
   }
+  .home .logo {
+    position: relative;
+    width: 229.39px;
+    height: 34.99px;
+  }
   
   .home .navbar {
     display: inline-flex;
@@ -22,7 +27,7 @@ a {
   .home .frame {
     display: inline-flex;
     align-items: center;
-    gap: 405px;
+    gap: 418px;
     position: relative;
     flex: 0 0 auto;
   }
