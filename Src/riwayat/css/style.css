@@ -1,0 +1,261 @@
+a {
+    text-decoration: none;
+    color: #ffffff; /* Warna teks tautan tanpa garis bawah */
+  }
+.riwayat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+    position: relative;
+    background-color: var(--background);
+  }
+  
+  .riwayat .navbar {
+    display: flex;
+    width: 1440px;
+    align-items: center;
+    justify-content: center;
+    gap: 401px;
+    padding: 20px 0px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #304d30;
+  }
+  
+  .riwayat .logo {
+    position: relative;
+    width: 229.39px;
+    height: 34.99px;
+    margin-left: -11.19px;
+  }
+  
+  .riwayat .menu {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    padding: 10px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-right: -11.19px;
+  }
+  
+  .riwayat .menu-text {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+   
+  .riwayat .bulat {
+    background-color: #d9d9d9;
+    border-radius: 2px;
+    position: relative;
+    width: 4px;
+    height: 4px;
+  }
+  
+  .riwayat .riwayat-peminjaman {
+    display: flex;
+    width: 1440px;
+    gap: 29px;
+    padding: 20px 0px;
+    background-color: #ffffff;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .riwayat .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .riwayat .navbar-2 {
+    display: inline-flex;
+    align-items: center;
+    width: 1440px;
+    justify-content: center;
+    gap: 140px;
+    padding: 26px 0px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #304d30;
+  }
+  
+  .riwayat .text-wrapper-3 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--background);
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .riwayat .riwayat-isi {
+    display: inline-flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .riwayat .data {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 140px;
+    padding: 10px 67px;
+    position: relative;
+    flex: 0 0 auto;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: #000000;
+  }
+  
+  .riwayat .nomor {
+    display: flex;
+    width: 58px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+  }
+  
+  .riwayat .text-wrapper-4 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--abu-abu-4);
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .riwayat .tanggal {
+    width: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+  }
+  
+  .riwayat .text-wrapper-5 {
+    margin-left: -15.5px;
+    margin-right: -15.5px;
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--abu-abu-4);
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .riwayat .nama {
+    display: flex;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+  }
+  
+  .riwayat .tanggal-peminjaman {
+    width: 178px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+  }
+  
+  .riwayat .tanggal-pengembalian {
+    width: 195px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+  }
+  
+  .riwayat .status {
+    display: flex;
+    width: 56px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+  }
+  
+  .riwayat .text-wrapper-6 {
+    position: relative;
+    width: 56px;
+    margin-top: -1px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--abu-abu-4);
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .riwayat .footer {
+    display: flex;
+    width: 1440px;
+    align-items: center;
+    justify-content: center;
+    gap: 425px;
+    padding: 22px 0px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #313131;
+  }
+ 
+  .riwayat .footer-item {
+    position: relative;
+    width: fit-content;
+    margin-right: -0.5px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 12px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  

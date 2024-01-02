@@ -14,38 +14,9 @@ a {
     position: relative;
     width: 229.39px;
     height: 34.99px;
+    margin-left: -11.19px;
   }
-  
-  .home .navbar {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px 42px;
-    background-color: #304d30;
-  }
-  
-  .home .frame {
-    display: inline-flex;
-    align-items: center;
-    gap: 418px;
-    position: relative;
-    flex: 0 0 auto;
-  }
-  
-  .home .alu-tsista {
-    position: relative;
-    width: fit-content;
-    font-family: "Kenia-Regular", Helvetica;
-    font-weight: 400;
-    color: #eef0e5;
-    font-size: 43px;
-    text-align: center;
-    letter-spacing: 4.08px;
-    line-height: normal;
-    white-space: nowrap;
-  }
-  
-  .home .div {
+  .home .menu {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -53,57 +24,44 @@ a {
     padding: 10px;
     position: relative;
     flex: 0 0 auto;
+    margin-right: -11.19px;
   }
-  
-  .home .text-wrapper {
+.home .menu-text {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .bulat {
+  background-color: #d9d9d9;
+  border-radius: 2px;
+  position: relative;
+  width: 4px;
+  height: 4px;
+}
+
+  .home .logo2 {
     position: relative;
-    width: fit-content;
-    margin-top: -1px;
-    font-family: "Inter-Medium", Helvetica;
-    font-weight: 500;
-    color: #ffffff;
-    font-size: 18px;
-    letter-spacing: 0;
-    line-height: normal;
+    height: 68px;
   }
   
-  .home .ellipse {
-    position: relative;
-    width: 4px;
-    height: 4px;
-    background-color: #d9d9d9;
-    border-radius: 2px;
-  }
-  
-  .home .tombol-login {
-    display: inline-flex;
+  .home .navbar {
+    display: flex;
+    width: 1440px;
     align-items: center;
     justify-content: center;
-    font-family: "Inter-SemiBold", Helvetica;
-    font-weight: 600;
-    color: #304d30;
-    font-size: 18px;
-    letter-spacing: 0;
-    gap: 10px;
-    padding: 10px;
+    gap: 401px;
+    padding: 20px 0px;
     position: relative;
     flex: 0 0 auto;
-    background-color: #ffffff;
-    border-radius: 8px;
+    background-color: #304d30;
   }
-  
-  .home .login {
-    position: relative;
-    width: fit-content;
-    margin-top: -1px;
-    font-family: "Inter-SemiBold", Helvetica;
-    font-weight: 600;
-    color: #304d30;
-    font-size: 18px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
   .home .frame-2 {
     display: inline-flex;
     flex-direction: column;
@@ -161,6 +119,7 @@ a {
     justify-content: center;
     gap: 24px;
     padding: 21px 11.5px;
+    border: #000000 1px;
     position: absolute;
     top: 0;
     left: 0;
@@ -266,7 +225,7 @@ a {
     display: inline-flex;
     flex-direction: column;
     align-items: center;
-    gap: 28px;
+    gap: 10px;
     position: absolute;
     top: 105px;
     left: 528px;
@@ -276,7 +235,6 @@ a {
     position: relative;
     width: fit-content;
     margin-top: -1px;
-    font-family: "Kenia-Regular", Helvetica;
     font-weight: 400;
     color: #fdfdfd;
     font-size: 94px;
@@ -464,175 +422,27 @@ a {
   }
   
   .home .footer {
-    position: relative;
+    display: flex;
     width: 1440px;
-    height: 512px;
-    background-color: var(--abu-abu-4);
+    align-items: center;
+    justify-content: center;
+    gap: 425px;
+    padding: 22px 0px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #313131;
   }
   
-  .home .bottom-footer {
-    position: absolute;
-    width: 1298px;
-    height: 64px;
-    top: 380px;
-    left: 72px;
-  }
-  
-  .home .line-3 {
-    position: absolute;
-    width: 1296px;
-    height: 1px;
-    top: -1px;
-    left: 0;
-    object-fit: cover;
-  }
-  
-  .home .copyright {
-    position: absolute;
-    top: 39px;
-    left: 0;
-    font-family: var(--regular-13px-font-family);
-    font-weight: var(--regular-13px-font-weight);
-    color: var(--gray-400);
-    font-size: var(--regular-13px-font-size);
-    letter-spacing: var(--regular-13px-letter-spacing);
-    line-height: var(--regular-13px-line-height);
+  .home .footer-item {
+    position: relative;
+    width: fit-content;
+    margin-right: -0.5px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 12px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
     white-space: nowrap;
-    font-style: var(--regular-13px-font-style);
   }
-  
-  .home .social {
-    position: absolute;
-    width: 148px;
-    height: 28px;
-    top: 36px;
-    left: 1148px;
-  }
-  
-  .home .element {
-    position: absolute;
-    width: 28px;
-    height: 28px;
-    top: 0;
-    left: 0;
-    background-color: #eeffff;
-    border-radius: 14px;
-  }
-  
-  .home .logo-twitter {
-    position: absolute;
-    width: 11px;
-    height: 9px;
-    top: 10px;
-    left: 9px;
-  }
-  
-  .home .logo-fb-simple-wrapper {
-    position: absolute;
-    width: 28px;
-    height: 28px;
-    top: 0;
-    left: 40px;
-    background-color: #eeffff;
-    border-radius: 14px;
-  }
-  
-  .home .logo-fb-simple {
-    position: absolute;
-    width: 6px;
-    height: 12px;
-    top: 8px;
-    left: 11px;
-  }
-  
-  .home .logo-instagram-wrapper {
-    position: absolute;
-    width: 28px;
-    height: 28px;
-    top: 0;
-    left: 80px;
-    background-color: #eeffff;
-    border-radius: 14px;
-  }
-  
-  .home .logo-instagram {
-    position: absolute;
-    width: 14px;
-    height: 14px;
-    top: 7px;
-    left: 7px;
-  }
-  
-  .home .logo-github-wrapper {
-    position: absolute;
-    width: 28px;
-    height: 28px;
-    top: 0;
-    left: 120px;
-    background-color: #eeffff;
-    border-radius: 14px;
-  }
-  
-  .home .logo-github {
-    position: absolute;
-    width: 13px;
-    height: 13px;
-    top: 7px;
-    left: 8px;
-  }
-  
-  .home .frame-9 {
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 243px;
-    position: absolute;
-    top: 68px;
-    left: 287px;
-  }
-  
-  .home .widget {
-    width: 100px;
-    position: relative;
-    height: 212px;
-  }
-  
-  .home .about-features-works {
-    position: absolute;
-    top: 58px;
-    left: 0;
-    font-family: var(--regular-13px-font-family);
-    font-weight: var(--regular-13px-font-weight);
-    color: var(--gray-200);
-    font-size: var(--regular-13px-font-size);
-    letter-spacing: var(--regular-13px-letter-spacing);
-    line-height: var(--regular-13px-line-height);
-    font-style: var(--regular-13px-font-style);
-  }
-  
-  .home .HELP-MENU {
-    position: absolute;
-    top: 0;
-    left: 0;
-    font-family: var(--bold-16px-font-family);
-    font-weight: var(--bold-16px-font-weight);
-    color: var(--basewhite);
-    font-size: var(--bold-16px-font-size);
-    letter-spacing: var(--bold-16px-letter-spacing);
-    line-height: var(--bold-16px-line-height);
-    white-space: nowrap;
-    font-style: var(--bold-16px-font-style);
-  }
-  
-  .home .widget-2 {
-    width: 139px;
-    position: relative;
-    height: 212px;
-  }
-  
-  .home .widget-3 {
-    width: 154px;
-    margin-right: -4px;
-    position: relative;
-    height: 212px;
-  }
-  
