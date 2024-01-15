@@ -1,0 +1,234 @@
+a {
+  text-decoration: none;
+  color: #ffffff; /* Warna teks tautan tanpa garis bawah */
+}
+.login {
+    display: flex;
+    align-items: center;
+    gap: 66px;
+    position: relative;
+    background-color: #ffffff;
+    width: 100%;
+    min-width: 1439px;
+    min-height: 1027px;
+  }
+  
+  .login .tentara {
+    position: relative;
+    width: 730px;
+    height: 1027px;
+    object-fit: cover;
+  }
+  
+  .login .form-login {
+    gap: 20px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .login .ALUTSISTA {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 23px 219px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #304d30;
+  }
+  
+  .login .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    background-color: #304d30;
+    padding: 23px 219px;
+  }
+  
+  .login h2 {
+    font-family: "Inter-Bold", Helvetica;
+    font-size: 40px;
+  }
+  
+  .login p{
+    font-family: "Inter-Medium", Helvetica;
+  }
+  
+  .login .form {
+    gap: 15px;
+    font-family: "Inter-Medium", Helvetica;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex: 0 0 auto;
+  }
+ .login .login-tulisan{
+  text-align: center;
+ }
+  
+  .login .username {
+    display: flex;
+    width: 468px;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 11px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #d9d9d9;
+    border-radius: 8px;
+  }
+  
+  .login .text-wrapper-3 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #1d1b1b;
+    font-size: 15px;
+    letter-spacing: -0.28px;
+    line-height: 22.5px;
+    white-space: nowrap;
+  }
+  
+  .login .password {
+    display: flex;
+    width: 465px;
+    align-items: center;
+    justify-content: center;
+    gap: 315px;
+    padding: 16px 11px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #d9d9d9;
+    border-radius: 8px;
+  }
+  
+  .login .text-wrapper-4 {
+    position: relative;
+    width: fit-content;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #1e1c1c;
+    font-size: 15px;
+    letter-spacing: -0.28px;
+    line-height: 22.5px;
+    white-space: nowrap;
+  }
+  
+  .login .icon-mata {
+    position: relative;
+    width: 30.5px;
+    height: 21px;
+    margin-top: -1px;
+    margin-bottom: -1px;
+  }
+  
+  .login .ask {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 182px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .login .force-login {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 11px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .login .icon-centang {
+    position: relative;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .login .text-wrapper-5 {
+    position: relative;
+    width: fit-content;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: -0.28px;
+    line-height: 22.5px;
+    white-space: nowrap;
+  }
+  
+  .login .text-wrapper-6 {
+    position: relative;
+    width: fit-content;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 15px;
+    text-align: right;
+    letter-spacing: -0.28px;
+    line-height: 22.5px;
+    white-space: nowrap;
+  }
+  
+  .login .tombol-login {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 230px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #304d30;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 8px;
+    max-width: 492.19px;
+  }
+  
+  .login .text-wrapper-7 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 26px;
+    text-align: center;
+    letter-spacing: -0.49px;
+    line-height: 39px;
+    white-space: nowrap;
+  }
+  
+  .text-wrapper-5 input{
+    background-color: black;
+    color: #000000;
+  }
+  .login .belum-punya-akun {
+    position: relative;
+    width: fit-content;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: -0.28px;
+    line-height: 22.5px;
+    white-space: nowrap;
+  }
+  
+  .login .span {
+    font-weight: 500;
+  }
+  
+  .login .text-wrapper-8 {
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+  }
+  
