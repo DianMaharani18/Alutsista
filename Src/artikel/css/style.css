@@ -1,0 +1,222 @@
+a {
+    text-decoration: none;
+    color: #ffffff; /* Warna teks tautan tanpa garis bawah */
+  }
+body{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 36px;
+    position: relative;
+    background-color: var(--background);
+}
+.navbar {
+    display: flex;
+    width: 1440px;
+    align-items: center;
+    justify-content: center;
+    gap: 401px;
+    padding: 20px 0px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #304d30;
+  }
+.logo {
+    position: relative;
+    width: 229.39px;
+    height: 34.99px;
+    margin-left: -11.19px;
+  }
+.menu {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    padding: 10px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-right: -11.19px;
+  }
+  
+.menu-text {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+   
+.bulat {
+    background-color: #d9d9d9;
+    border-radius: 2px;
+    position: relative;
+    width: 4px;
+    height: 4px;
+  }
+
+  .frame {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .frame-2 {
+    display: flex;
+    flex-direction: column;
+    width: 1058px;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .frame-3 {
+    display: flex;
+    flex-direction: column;
+    width: 1058px;
+    align-items: center;
+    gap: 0px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .alutsista-untuk {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #000000;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .line {
+    position: relative;
+    width: 53px;
+    height: 4px;
+  }
+  
+  .alutsista-menjadi {
+    position: relative;
+    width: 927px;
+    font-family: "Inter-Italic", Helvetica;
+    font-weight: 400;
+    font-style: italic;
+    color: #000000;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .frame-wrapper {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .frame-4 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .oleh-admin {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Inter-Regular", Helvetica;
+    color: #000000;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .span {
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 10px;
+    letter-spacing: 0;
+  }
+  
+  .text-wrapper-2 {
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+  }
+  
+  .senin-januari {
+    position: relative;
+    width: fit-content;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .image {
+    position: relative;
+    width: 1058px;
+    height: 642px;
+    object-fit: cover;
+  }
+  
+  .sikap-kesatria {
+    position: relative;
+    width: 1058px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .footer {
+    display: flex;
+    width: 1440px;
+    align-items: center;
+    justify-content: center;
+    gap: 425px;
+    padding: 22px 0px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #313131;
+  }
+  
+  .footer-item {
+    position: relative;
+    width: fit-content;
+    margin-right: -0.5px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 12px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
