@@ -37,6 +37,18 @@ a {
   letter-spacing: 0;
   line-height: normal;
 }
+.home .tombol-login{
+  background-color: white;
+  border-radius: 60px;
+  font-family: "Inter-Bold", Helvetica;
+  padding: 10px 20px;
+  color: #163020;
+}
+
+.tombol-login a {
+  text-decoration: none;
+  color: #163020; /* Warna teks tautan tanpa garis bawah */
+}
 
 .home .bulat {
   background-color: #d9d9d9;
@@ -169,6 +181,12 @@ a {
     position: relative;
     flex: 0 0 auto;
   }
+
+  .selengkapnya-2 a{
+    text-decoration: none;
+    color: #000000; /* Warna teks tautan tanpa garis bawah */
+  }
+  
   
   .home .selengkapnya-2 {
     position: relative;
@@ -316,19 +334,9 @@ a {
     flex: 0 0 auto;
     background-color: #163020;
     border-radius: 4px;
-  }
-  
-  .home .pesan-sekarang-2 {
-    position: relative;
-    width: fit-content;
-    margin-top: -1px;
-    font-family: "Inter-Medium", Helvetica;
-    font-weight: 500;
+    font-family: "Inter-Bold", Helvetica;
     color: #eeffff;
-    font-size: 24px;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
+    font-size: 15px;
   }
   
   .home .layanan-kami {

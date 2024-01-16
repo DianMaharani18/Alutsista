@@ -10,6 +10,10 @@ a {
     position: relative;
     background-color: #eeffff;
   }
+  .selengkapnya-2 a{
+    text-decoration: none;
+    color: #000000; /* Warna teks tautan tanpa garis bawah */
+  }
   .home .logo {
     position: relative;
     width: 229.39px;
