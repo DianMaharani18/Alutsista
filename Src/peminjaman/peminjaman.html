@@ -28,46 +28,26 @@
       <div class="form-peminjaman">
         <div class="peminjaman-alat">PEMINJAMAN<br />ALAT UTAMA SISTEM SENJATA</div>
         <div class="bg-form">
-          <div class="form">
+          <form class="form" action="#" method="post">
             <div class="form-2">
-              <div class="identitas-peminjam">
+              <div class="div-2">
                 <div class="text-wrapper-2">IDENTITAS PEMINJAM</div>
                 <div class="frame">
                   <div class="nama-lengkap">
-                    <p class="p"><span class="span">Nama Lengkap</span> <span class="text-wrapper-3">*</span></p>
-                    <div class="group">
-                        <form action="">
-                            <label for="Nama Lengkap"></label>
-                            <input type="text" id="Nama" name="Nama" placeholder="Masukkan Nama Lengkap" required>
-                        </form>
-                    </div>
+                    <label for="Nama Lengkap" class="p"> <span class="span">Nama Lengkap</span><span class="text-wrapper-3">*</span></label>
+                    <input type="text" name="NamaLengkap" id="NamaLengkap" placeholder="Masukkan Nama Lengkap" required>
                   </div>
                   <div class="nama-lengkap">
-                    <p class="p"><span class="span">No Telepon</span> <span class="text-wrapper-3">*</span></p>
-                    <div class="group">
-                        <form action="">
-                            <label for="No Telepon"></label>
-                            <input type="number" id="No Telepon" name="No Telepon" placeholder="Masukkan No. Telepon" required>
-                        </form>
-                    </div>
+                    <label for="NoTelepon" class="p"> <span class="span">No Telepon</span><span class="text-wrapper-3">*</span></label>
+                    <input type="number" name="NoTelepon" id="NoTelepon" placeholder="Masukkan No. Telepon" required>
                   </div>
                   <div class="nama-lengkap">
-                    <p class="p"><span class="span">Alamat Email</span> <span class="text-wrapper-3">*</span></p>
-                    <div class="group">
-                        <form action="">
-                            <label for="Email"></label>
-                            <input type="email" id="Email" name="Email" placeholder="Masukkan Alamat Email" required>
-                        </form>
-                    </div>
+                    <label for="email" class="p"> <span class="span">Alamat Email</span><span class="text-wrapper-3">*</span></label>
+                    <input type="email" name="email" id="email" placeholder="Masukkan Alamat Email" required>
                   </div>
                   <div class="nama-lengkap">
-                    <p class="p"><span class="span">Nama Unit Kerja</span> <span class="text-wrapper-3">*</span></p>
-                    <div class="group">
-                        <form action="">
-                            <label for="Unit Kerja"></label>
-                            <input type="text" id="Unit Kerja" name="Unit Kerja" placeholder="Masukkan Unit Kerja" required>
-                        </form>
-                    </div>
+                    <label for="unitkerja" class="p"> <span class="span">Unit Kerja</span><span class="text-wrapper-3">*</span></label>
+                    <input type="text" name="unitkerja" id="unitkerja" placeholder="Masukkan Unit Kerja" required>
                   </div>
                 </div>
               </div>
@@ -75,33 +55,20 @@
                 <div class="text-wrapper-2">IDENTITAS KEGIATAN</div>
                 <div class="frame">
                   <div class="nama-lengkap">
-                    <p class="p"><span class="span">Nama Kegiatan</span> <span class="text-wrapper-3">*</span></p>
-                    <div class="group">
-                        <form action="">
-                            <label for="Kegiatan"></label>
-                            <input type="text" id="Kegiatan" name="Kegiatan" placeholder="Masukkan Nama Kegiatan" required>
-                        </form>
-                    </div>
+                    <label for="NamaKegiatan" class="p"> <span class="span">Nama Kegiatan</span><span class="text-wrapper-3">*</span></label>
+                    <input type="text" name="NamaKegiatan" id="NamaKegiatan" placeholder="Masukkan Nama Kegiatan" required>
                   </div>
                   <div class="nama-lengkap">
-                    <p class="p">
-                      <span class="span">Tanggal & Waktu Kegiatan</span> <span class="text-wrapper-3">*</span>
-                    </p>
-                    <div class="group">
-                        <form action="">
-                            <label for="Tanggal"></label>
-                            <input type="datetime" id="Tanggal" name="Tanggal" placeholder="Masukkan Tanggal dan Waktu" required>
-                        </form>
-                    </div>
+                    <label for="TanggalKegiatan" class="p"> <span class="span">Tanggal Kegiatan</span><span class="text-wrapper-3">*</span></label>
+                    <input type="date" name="TanggalKegiatan" id="TanggalKegiatan" required>
                   </div>
                   <div class="nama-lengkap">
-                    <p class="p"><span class="span">Lokasi Kegiatan</span> <span class="text-wrapper-3">*</span></p>
-                    <div class="group">
-                        <form action="">
-                            <label for="Lokasi"></label>
-                            <input type="text" id="Lokasi" name="Lokasi" placeholder="Masukkan Nama Kegiatan" required>
-                        </form>
-                    </div>
+                    <label for="WaktuKegiatan" class="p"> <span class="span">Waktu Kegiatan</span><span class="text-wrapper-3">*</span></label>
+                    <input type="time" name="WaktuKegiatan" id="WaktuKegiatan" required>
+                  </div>
+                  <div class="nama-lengkap">
+                    <label for="lokasi" class="p"> <span class="span">Lokasi Kegiatan</span><span class="text-wrapper-3">*</span></label>
+                    <input type="lokasi" name="lokasi" id="lokasi" placeholder="Masukkan Lokasi Kegiatan" required>
                   </div>
                 </div>
               </div>
@@ -111,33 +78,8 @@
                 <div class="text-wrapper-2">JENIS ALAT</div>
                 <div class="frame">
                   <div class="nama-lengkap">
-                    <p class="p">
-                      <span class="span">Masukkan Daftar Alat Yang Akan Dipinjam</span> <span class="text-wrapper-3">*</span>
-                    </p>
-                    <form action="">
-                        <label for="Input Alat"></label>
-                        <input type="file" id="file" name="Input Alat" accept=".pdf, .docx, .csv" required>
-                    </form>
-                  </div>
-                  <div class="nama-lengkap">
-                    <p class="p">
-                      <span class="span">Tanggal Dan Waktu Kegiatan</span> <span class="text-wrapper-3">*</span>
-                    </p>
-                    <div class="group">
-                        <form action="">
-                            <label for="Tanggal"></label>
-                            <input type="datetime" id="Tanggal" name="Tanggal" placeholder="Masukkan Tanggal dan Waktu" required>
-                        </form>
-                    </div>
-                  </div>
-                  <div class="nama-lengkap">
-                    <p class="p"><span class="span">Lokasi Kegiatan</span> <span class="text-wrapper-3">*</span></p>
-                    <div class="group">
-                        <form action="">
-                            <label for="Lokasi Kegiatan"></label>
-                            <input type="text" id="Lokasi Kegiatan" name="Kegiatan" placeholder="Masukkan Lokasi Kegiatan" required>
-                        </form>
-                    </div>
+                    <label for="InputAlat" class="p"> <span class="span">Masukkan Alat Yang Akan Dipinjam</span><span class="text-wrapper-3">*</span></label>
+                    <input type="file" id="InputAlat" name="InputAlat" accept=".pdf, .docx, .csv" required>
                   </div>
                 </div>
               </div>
@@ -145,35 +87,16 @@
                 <div class="text-wrapper-2">SYARAT PEMINJAMAN</div>
                 <div class="frame">
                   <div class="nama-lengkap">
-                    <p class="p">
-                      <span class="span">Surat Rekomendasi Peminjaman</span> <span class="text-wrapper-3">*</span>
-                    </p>
-                    <form action="">
-                        <label for="Input SR"></label>
-                        <input type="file" id="Input SR" name="Input SR" accept=".pdf, .docx, .csv" required>
-                    </form>
+                    <label for="InputSR" class="p"> <span class="span">Surat Rekomendasi Peminjaman</span><span class="text-wrapper-3">*</span></label>
+                    <input type="file" id="InputSR" name="InputSR" accept=".pdf, .docx" required>
                   </div>
                   <div class="nama-lengkap">
-                    <p class="p"><span class="span">Kartu Identitas</span> <span class="text-wrapper-3">*</span></p>
-                    <div class="group">
-                        <form action="">
-                            <label for="Input SR"></label>
-                            <form action="">
-                                <label for="Input SR"></label>
-                                <input type="file" id="Input SR" name="Input SR" accept=".pdf, .docx, .csv" required>
-                            </form>
-                        </form>
-                    </div>
+                    <label for="InputKartu" class="p"> <span class="span">Kartu Identitas</span><span class="text-wrapper-3">*</span></label>
+                    <input type="file" id="InputKartu" name="InputKartu" accept=".pdf, .jpg, .jpeg, .png" required>
                   </div>
                   <div class="nama-lengkap">
-                    <div class="catatan-peminjaman">Catatan Peminjaman</div>
-                    <br>
-                    <div class="group">
-                        <form action="">
-                            <label for="Catatan"></label>
-                            <input type="text" id="Catatan" name="Catatan" placeholder="Masukkan Catatan" required>
-                        </form>
-                    </div>
+                    <label for="CatatanPinjam" class="p"> <span class="span">Catatan Peminjaman</span><span class="text-wrapper-3">*</span></label>
+                    <input type="text" name="CatatanPinjam" id="CatatanPinjam" placeholder="Masukkan Detail Peminjaman" required>
                   </div>
                 </div>
               </div>
@@ -183,29 +106,16 @@
                 <div class="text-wrapper-2">PENGAMBILAN ALAT</div>
                 <div class="frame">
                   <div class="nama-lengkap">
-                    <p class="p"><span class="span">Tanggal Pengambilan</span> <span class="text-wrapper-3">*</span></p>
-                    <form action="">
-                        <label for="Pengambilan"></label>
-                        <input type="date" id="Tanggal" name="Tanggal" placeholder="Masukkan Tanggal " required>
-                    </form>
+                    <label for="TglPengambilan" class="p"> <span class="span">Tanggal Pengambilan</span><span class="text-wrapper-3">*</span></label>
+                    <input type="date" id="TglPengambilan" name="TglPengambilan" placeholder="Masukkan Tanggal " required>
                   </div>
                   <div class="nama-lengkap">
-                    <p class="p"><span class="span">Waktu Pengambilan</span> <span class="text-wrapper-3">*</span></p>
-                    <div class="group">
-                        <form action="">
-                            <label for="Pengambilan"></label>
-                            <input type="time" id="Tanggal" name="Tanggal" placeholder="Masukkan Waktu " required>
-                        </form>
-                    </div>
+                    <label for="WktPengambilan" class="p"> <span class="span">Waktu Pengambilan</span><span class="text-wrapper-3">*</span></label>
+                    <input type="time" id="WktPengambilan" name="WktPengambilan" placeholder="Masukkan Waktu" required>
                   </div>
                   <div class="nama-lengkap">
-                    <p class="p"><span class="span">Penanggungjawab</span> <span class="text-wrapper-3">*</span></p>
-                    <div class="group">
-                        <form action="">
-                            <label for="Penanggungjawab"></label>
-                            <input type="text" id="Penanggungjawab" name="Penanggungjawab" placeholder="Masukkan Penanggungjawab" required>
-                        </form>
-                    </div>
+                    <label for="Penanggungjwb" class="p"> <span class="span">Penanggungjawab</span><span class="text-wrapper-3">*</span></label>
+                    <input type="text" id="Penanggungjwb" name="Penanggungjwb" placeholder="Masukkan Penanggungjawab" required>
                   </div>
                 </div>
               </div>
@@ -213,35 +123,22 @@
                 <div class="text-wrapper-2">PENGEMBALIAN ALAT</div>
                 <div class="frame">
                   <div class="nama-lengkap">
-                    <p class="p"><span class="span">Tanggal Pengembalian</span> <span class="text-wrapper-3">*</span></p>
-                    <form action="">
-                        <label for="Pengambilan"></label>
-                        <input type="date" id="Tanggal" name="Tanggal" placeholder="Masukkan Tanggal " required>
-                    </form>
+                    <label for="TglPengembalian" class="p"> <span class="span">Tanggal Pengembalian</span><span class="text-wrapper-3">*</span></label>
+                    <input type="date" id="TglPengembalian" name="TglPengembalian" placeholder="Masukkan Tanggal " required>
                   </div>
                   <div class="nama-lengkap">
-                    <p class="p"><span class="span">Waktu Pengembalian</span> <span class="text-wrapper-3">*</span></p>
-                    <div class="group">
-                        <form action="">
-                            <label for="Pengambilan"></label>
-                            <input type="time" id="Tanggal" name="Tanggal" placeholder="Masukkan Waktu " required>
-                        </form>
-                    </div>
+                    <label for="WktPengembalian" class="p"> <span class="span">Waktu Pengembalian</span><span class="text-wrapper-3">*</span></label>
+                    <input type="time" id="WktPengambilan" name="WktPengembalian" placeholder="Masukkan Waktu" required>
                   </div>
                   <div class="nama-lengkap">
-                    <p class="p"><span class="span">Kondisi</span> <span class="text-wrapper-3">*</span></p>
-                    <div class="group">
-                        <form action="">
-                            <label for="Kondisi"></label>
-                            <input type="text" id="Kondisi" name="Kondisi" placeholder="Masukkan Kondisi" required>
-                        </form>
-                    </div>
+                    <label for="Kondisi" class="p"> <span class="span">Kondisi Alat</span><span class="text-wrapper-3">*</span></label>
+                    <input type="text" id="Kondisi" name="Kondisi" placeholder="Masukkan Detail Kondisi Alat" required>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="submit-wrapper"><div class="submit">SUBMIT</div></div>
+              <button type="submit" class="submit-wrapper">SUBMIT</button></div>
+          </form>
         </div>
       </div>
       <footer class="footer">
