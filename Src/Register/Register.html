@@ -15,18 +15,19 @@
           <h2>Register</h2>
           <p>Daftarkan Diri Anda</p>
         </div>
-        <form class="form" action="#" method="post">
-          <input type="text" class="username" id="username" name="username" placeholder="Nama Lengkap" required>
-          <input type="email" class="username" id="email" name="email" placeholder="Email" required>
-          <input type="number" class="username" id="No Hp" name="No Hp" placeholder="No. HP" required>
-          <input type="text" class="username" id="username" name="username" placeholder="Username" required>
-          <div class="group-password"></div>
-          <input type="password" name="password" id="password" class="username" placeholder="Password" required>
+        <form class="form" action="register.php" method="POST">
+          <label for="namaLengkap"></label>
+          <input type="text" class="username" id="namaLengkap" name="NamaLengkap" placeholder="Nama Lengkap" required>
+          <label for="email"></label>
+          <input type="email" class="username" id="email" name="Email" placeholder="Email" required>
+          <label for="noHP"></label>
+          <input type="text" class="username" id="noHP" name="NoHp" placeholder="No. HP" required>
+          <label for="username"></label>
+          <input type="text" class="username" id="Username" name="Username" placeholder="Username" required>
+          <label for="password"></label>
+          <input type="password"  id="Pass" class="username" name="Pass" placeholder="Password" required>
           <i class="far fa-eye"></i></span>
-          <input type="password" name="password" id="password" class="username" placeholder="Re-Password" required>
-          <i class="far fa-eye"></i></span>
-    
-          <button type="submit" class="tombol-login"><a href="../../index.html">Register</a></button>
+          <button type="submit" class="tombol-login">Register</a></button>
         </form>
         <p class="belum-punya-akun">
           <span class="span">Sudah Punya Akun? </span> <span class="text-wrapper-8"> <a href="../login/login.html">Masuk</a></span>
